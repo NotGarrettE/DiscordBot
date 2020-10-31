@@ -18,7 +18,7 @@ async def auto_status():
         await asyncio.sleep(60)
         await client.change_presence(status=Status.do_not_disturb, activity=Game(name='Catching Criminals...'))
         await asyncio.sleep(60)
-        await client.change_presence(activity=discord.Streaming(name="Happy Halloween", url='https://www.twitch.tv/cmderruft'))
+        await client.change_presence(activity=discord.Streaming(name="Happy Halloween", url='https://www.twitch.tv/yourchannelhere'))
         await asyncio.sleep(60)
         await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="Trading City..."))
         await asyncio.sleep(60)
